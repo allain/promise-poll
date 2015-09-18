@@ -1,0 +1,30 @@
+{
+  "name": "promise-poll",
+  "version": "1.0.0",
+  "description": "A promise that resolves if a predicate it polls returns something truthy",
+  "main": "index.js",
+  "scripts": {
+    "test": "faucet test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/allain/promise-poll.git"
+  },
+  "keywords": [
+    "promise",
+    "poll"
+  ],
+  "author": "Allain Lalonde <allain.lalonde@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allain/promise-poll/issues"
+  },
+  "homepage": "https://github.com/allain/promise-poll#readme",
+  "devDependencies": {
+    "blue-tape": "^0.1.10",
+    "faucet": "0.0.1"
+  },
+  "dependencies": {
+    "native-promise-only": "^0.8.1"
+  }
+}
